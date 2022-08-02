@@ -69,10 +69,10 @@ func formatURL(value string) string {
 			url = url[:len(url)-1]
 		}
 	}
-	urls := strings.Split(url, "/")
-	if urls[len(urls)-2] != "clash" {
-		url = url + "/clash/proxies"
-	}
+// 	urls := strings.Split(url, "/")
+// 	if urls[len(urls)-2] != "clash" {
+// 		url = url + "/clash/proxies"
+// 	}
 	return url
 }
 
